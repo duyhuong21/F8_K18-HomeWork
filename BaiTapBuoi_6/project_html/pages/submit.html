@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Gửi Form POST</title>
+</head>
+<body>
+<span><b>Menu điều hướng</b></span>
+<ul>
+    <li><a href="../index.html">Trang chủ</a></li>
+    <li><a href="./courses.html">Danh sách khóa học</a></li>
+    <li><a href="./lab.html">Phòng thí nghiệm</a></li>
+    <li><a href="./contact.html">Liên hệ - nhúng media </a></li>
+    <li><a href="./about.html">Tùy chọn</a></li>
+</ul>
+<h1>Form POST</h1>
+<form action="https://api-gateway.fullstack.edu.vn/action_page.php" method="post">
+    <label for="name">Họ tên:</label>
+    <input type="text" id="name" name="fullname" placeholder="Nhập họ tên" value="Nguyễn Văn A"><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="example@gmail.com"><br><br>
+
+    <label for="password">Mật khẩu:</label>
+    <input type="password" id="password" name="password" placeholder="Nhập mật khẩu"><br><br>
+
+    <label for="age">Tuổi:</label>
+    <input type="number" id="age" name="age"><br><br>
+
+    <label for="category">Danh mục:</label>
+    <select id="category" name="category">
+        <option>Không chọn</option>
+        <option value="frontend">Frontend</option>
+        <option value="backend">Backend</option>
+    </select><br><br>
+
+    <input type="submit" value="Gửi">
+</form>
+</body>
+</html>

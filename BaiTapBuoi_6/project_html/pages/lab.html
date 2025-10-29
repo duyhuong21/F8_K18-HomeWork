@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Phòng thí nghiệm</title>
+</head>
+<body>
+<span><b><h2>Menu điều hướng </h2></b></span>
+<ul>
+    <li><a href="../index.html">Trang chủ</a></li>
+    <li><a href="./courses.html">Danh sách khóa học</a></li>
+    <li><a href="./submit.html">Trang gửi form POST</a></li>
+    <li><a href="./contact.html">Liên hệ - nhúng media </a></li>
+    <li><a href="./about.html">Tùy chọn</a></li>
+</ul>
+
+<h1>Phòng thí nghiệm</h1>
+<form method="get" action="lab.html">
+    <label for="search">Tìm kiếm:</label>
+    <input type="text" id="search" name="q" placeholder="Tìm kiếm..."><br><br>
+
+    <p>Trình độ:</p>
+    <label><input type="checkbox" name="level" value="beginner"> Beginner</label>
+    <label><input type="checkbox" name="level" value="intermediate"> Intermediate</label>
+    <label><input type="checkbox" name="level" value="advanced"> Advanced</label><br><br>
+
+    <p>Hình thức:</p>
+    <label><input type="radio" name="mode" value="online"> Online</label>
+    <label><input type="radio" name="mode" value="offline"> Offline</label><br><br>
+
+    <label for="category">Danh mục:</label>
+    <select id="category" name="source">
+        <option value="frontend">Frontend</option>
+        <option value="backend">Backend</option>
+        <option value="devops">DevOps</option>
+    </select><br><br>
+
+    <input type="submit" value="Tìm kiếm">
+    <input type="reset" value="Làm lại">
+</form>
+</body>
+</html>
