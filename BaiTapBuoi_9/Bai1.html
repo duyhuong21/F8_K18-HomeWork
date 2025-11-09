@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bài tập 1 buổi 9</title>
+    <style>
+         h1 {
+              background-color: #f98000;
+              color: #f9fafb;
+         }
+
+         /* ===== Theme ===== */
+         #light:checked + label {
+              background-color: #fff8cc;
+              color: #8b5e00;
+         }
+
+         #light:checked ~ .light {
+              background-color: #fff8cc;
+              color: #111827;
+         }
+         #light:checked ~ .dark {
+              background-color: #f3f4f6;
+              color: #9ca3af;
+         }
+
+         #dark:checked + label {
+              background-color: #111827;
+              color: #f9fafb;
+         }
+         #dark:checked ~ .dark {
+              background-color: #111827;
+              color: #f9fafb;
+         }
+         #dark:checked ~ .light {
+              background-color: #f3f4f6;
+              color: #9ca3af;
+         }
+
+         /* ===== Color ===== */
+         #red:checked + label {
+              background-color: #fee2e2;
+              color: #991b1b;
+         }
+         #red:checked ~ .red {
+              background-color: #fee2e2;
+              color: #7f1d1d;
+         }
+         #red:checked ~ .blue {
+              background-color: #f3f4f6;
+              color: #9ca3af;
+         }
+         #red:checked ~ .green {
+              background-color: #f3f4f6;
+              color: #9ca3af;
+         }
+
+         #blue:checked + label {
+              background-color: #dbeafe;
+              color: #1d4ed8;
+         }
+         #blue:checked ~ .blue {
+              background-color: #dbeafe;
+              color: #1d4ed8;
+         }
+         #blue:checked ~ .red {
+              background-color: #f3f4f6;
+              color: #9ca3af;
+         }
+         #blue:checked ~ .green {
+              background-color: #f3f4f6;
+              color: #9ca3af;
+         }
+
+         #green:checked + label {
+              background-color: #dcfce7;
+              color: #166534;
+         }
+         #green:checked ~ .green {
+              background-color: #dcfce7;
+              color: #166534;
+         }
+         #green:checked ~ .red {
+              background-color: #f3f4f6;
+              color: #9ca3af;
+         }
+         #green:checked ~ .blue {
+              background-color: #f3f4f6;
+              color: #9ca3af;
+         }
+
+         /* ===== Language ===== */
+         #vi:checked + label {
+              background-color: #bbf7d0;
+              color: #166534;
+         }
+         #vi:checked ~ .vi {
+              background-color: #bbf7d0;
+              color: #166534;
+         }
+         #vi:checked ~ .en {
+              background-color: #f3f4f6;
+              color: #9ca3af;
+         }
+
+
+         #en:checked + label {
+              background-color: #bfdbfe;
+              color: #1d4ed8;
+         }
+         #en:checked ~ .en {
+              background-color: #bfdbfe;
+              color: #1d4ed8;
+         }
+         #en:checked ~ .vi {
+              background-color: #f3f4f6;
+              color: #9ca3af;
+         }
+
+         /* ===== Options ===== */
+         #hienthi:checked + label {
+              background-color: #fef3c7;
+              color: #92400e;
+         }
+         #hienthi:checked ~ #ncao {
+              background-color: #fef3c7;
+              color: #92400e;
+         }
+
+         #eco:checked + label {
+              background-color: #bbf7d0;
+              color: #15803d;
+         }
+         #eco:checked ~ #eco2 {
+              background-color: #bbf7d0;
+              color: #166534;
+         }
+
+         #canhcao:checked + label {
+              background-color: #fee2e2;
+              color: #b91c1c;
+         }
+         #canhcao:checked ~ #ccao {
+              background-color: #fee2e2;
+              color: #b91c1c;
+         }
+
+         .options{
+              background-color: #f3f4f6;
+              color: #9ca3af;
+         }
+
+
+    </style>
+</head>
+<body>
+
+     <h1>Trung tâm cấu hình giao diện </h1>
+
+
+     <p>Chọn giao diện (theme) :</p>
+     <input type="radio" name="theme"  id="light" >
+     <label for="light">Light</label>
+
+     <input type="radio" name="theme" id="dark">
+     <label for="dark">Dark</label>
+
+
+
+     <p>Chọn màu chủ đạo (color) :</p>
+     <input type="radio" name="color"  id="red">
+     <label for="red">Red</label>
+     <input type="radio" name="color" id="blue">
+     <label for="blue">Blue</label>
+     <input type="radio" name="color" id="green">
+     <label for="green">Green</label>
+
+
+     <p>Chọn ngôn ngữ (language) :</p>
+     <input type="radio" name="language"  id="vi">
+     <label for="vi">VI</label>
+     <input type="radio" name="language" id="en">
+     <label for="en">EN</label>
+
+
+
+     <p>Tùy chọn bổ sung (Options - Checkbox)</p>
+     <input type="checkbox" name="hienthi"  id="hienthi">
+     <label for="hienthi">Hiển thị nhỏ mổ tả nâng cao </label>
+     <input type="checkbox" name="hienthi" id="eco">
+     <label for="eco">Bật chế độ Eco</label>
+     <input type="checkbox" name="hienthi" id="canhcao">
+     <label for="canhcao">Hiển thị cánh báo quan trọng</label>
+
+
+
+     <p class="light">Theme Light: Giao diện sáng, chữ đen.</p>
+     <p class="dark">Theme Dark: Giao diện tối, chữ trắng. </p>
+
+
+     <p class="red">Màu Red: được nhấn mạnh khi chọn Red. </p>
+     <p class="blue">Màu Blue: được nhấn mạnh khi chọn Blue. </p>
+     <p class="green">Màu Green: được nhấn mạnh khi chọn Green. </p>
+
+
+
+     <p class="vi">[VI] Xin chào bạn! dòng này rõ hơn. </p>
+     <p class="en">[EN] Hello, world! Khi chọn EN, dòng này rõ hơn </p>
+
+     <p class="options" id="ncao">Mô tả nâng cao: giải thích kỹ hơn về cách các lựa chọn đang ảnh hưởng giao diện</p>
+     <p class="options" id="eco2">Chế độ Eco: mô phỏng trạng thái tiết kiệm tài nguyên cho giao diện</p>
+     <p class="options" id="ccao">Cảnh cáo quan trongjL khu vực dùng để nhấn mạnh thông tin hệ thống</p>
+
+</body>
+</html>
