@@ -648,6 +648,7 @@ h2 {
     border-radius: 2rem;
     position: relative;
     width: 55rem;
+    max-width: 100%;
     margin: 2rem 0;
     display: inline-block;
 }
@@ -685,6 +686,7 @@ h2 {
     border-radius: 1rem;
     background: rgba(255, 255, 255, 0.6);
     width: 50rem;
+    max-width: 100%;
     text-align: left;
     display: block;
     cursor: pointer;
