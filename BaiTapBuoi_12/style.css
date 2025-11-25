@@ -61,8 +61,7 @@ h2 {
     font-size: 1.8rem;
     font-weight: 600;
     display: inline-block;
-    border: none;   /* loại bỏ border nếu có */
-    outline: none;  /* loại bỏ viền focus */
+
 }
 
 .open-start:hover {
@@ -98,7 +97,7 @@ h2 {
 }
 
 /* Nội dung trong modal Start */
-.feature-start{
+.feature-start {
     font-size: 1.4rem;
     font-weight: 400;
     color: rgba(51, 65, 85, 0.91);
@@ -119,8 +118,8 @@ h2 {
 .close-start {
     position: absolute;
     color: black;
-    right: 0;
-    top: -1rem;
+    right: 0.7rem;
+    top: 0;
     padding: 0;
     font-size: 3rem;
     cursor: pointer;
@@ -143,6 +142,8 @@ h2 {
     font-weight: 800;
     height: 7rem;
     width: 35rem;
+    border: none;
+    outline: none;
 }
 
 /* Link "more" */
@@ -204,7 +205,7 @@ h2 {
 /* Modal Consult */
 .box-consult {
     width: 40rem;
-    height: 55rem;
+    height: 47rem;
     padding: 1.25rem;
     background-color: white;
     position: fixed;
@@ -219,8 +220,8 @@ h2 {
 .close-consult {
     position: absolute;
     color: black;
-    right: 0;
-    top: -1rem;
+    right: 0.7rem;
+    top: 0;
     padding: 0;
     font-size: 3rem;
     cursor: pointer;
@@ -639,6 +640,8 @@ h2 {
     font-weight: 600;
     height: 3rem ;
     width: 35rem;
+    border: none;
+    outline: none;
 }
 
 /*========================================================*/
@@ -666,6 +669,8 @@ h2 {
 .question-box,
 .question2-box,
 .question3-box {
+    width: 100%;
+    max-width: 100%;
     position: relative;
     margin-bottom: 1.5rem;
 }
@@ -685,8 +690,6 @@ h2 {
     padding: 1.2rem 1.5rem;
     border-radius: 1rem;
     background: rgba(255, 255, 255, 0.6);
-    width: 50rem;
-    max-width: 100%;
     text-align: left;
     display: block;
     cursor: pointer;
@@ -698,8 +701,8 @@ h2 {
 .question3-content {
     font-size: 1.8rem;
     font-weight: 400;
+    width: 100%;
     line-height: 3rem;
-    padding-left: 1rem;
     display: none;
 }
 
@@ -712,9 +715,10 @@ h2 {
     line-height: 3rem;
     background: rgba(255, 255, 255, 0.18);
     margin-top: -1rem;
-    padding: 1.2rem 1.5rem;
+    padding: 1.2rem ;
     border-radius: 0 0 1rem 1rem;
     text-align: left;
+
 }
 
 /* Icon tick câu hỏi */
@@ -726,8 +730,8 @@ h2 {
 .question3-close-tick {
     font-size: 3rem;
     position: absolute;
-    right: 0.5rem;
-    top: -0.5rem;
+    right: 2rem;
+    top: 0.5rem;
     cursor: pointer;
 }
 
@@ -832,7 +836,6 @@ label {
     font-size: 1.8rem;
     font-weight: 600;
     color: #334155;
-    margin: 1rem;
 }
 
 /* Feature */
