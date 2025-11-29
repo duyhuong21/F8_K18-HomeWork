@@ -33,6 +33,7 @@ li a, .dropbtn_01 , .dropbtn_02{
 /*Menu cap 1*/
 li a:hover, .dropdown_01:hover .dropbtn_01, .dropdown_02:hover .dropbtn_02{
     color:#d62828;
+    background-color: #f5f5f5;
 }
 li.dropdown_01{
     display: inline-block;
