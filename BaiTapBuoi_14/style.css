@@ -26,7 +26,6 @@ li a, .dropbtn_01 , .dropbtn_02{
     display: inline-block;
     color: #333333;
     text-align: center;
-
     padding: 14px 16px;
     text-decoration: none;
 }
@@ -86,6 +85,7 @@ li.dropdown_02{
 .dropdown_02:hover .dropdown_02-content {
     display: block;
 }
+/*==================================*/
 .arrow_down, .arrow_to{
     display: inline-block;
     color: #555555;
