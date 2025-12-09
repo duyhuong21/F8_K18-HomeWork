@@ -121,12 +121,11 @@
 .our_testi-main-item div:last-child > button{
     width: 182px;
     height: 63px;
-
     border-radius: 8px;
     padding: 18px 24px;
     background-color: #F7F7F8;
     border: 1px solid #F1F1F3;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 18px;
     line-height: 150%;
     text-align: center;
