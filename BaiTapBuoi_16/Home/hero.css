@@ -95,7 +95,7 @@ h1 span{
     margin: 0;
 }
 .hero_section-bottom > button:last-of-type{
-    width: 159px;
+    width: auto;
     height: 63px;
     gap: 8px;
     border-radius: 8px;
