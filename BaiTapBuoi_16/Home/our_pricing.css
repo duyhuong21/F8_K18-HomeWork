@@ -161,6 +161,7 @@
     padding: 6px;
     background-color: #FFF4E5;
     margin-right: 0;
+    margin-left: 20px;
 }
 .pricing_3_content3{
     background-image: url("../images/pricing/icon_(X).svg");
@@ -171,9 +172,10 @@
     padding: 6px;
     background-color: #FFFFFF;
     margin-right: 0;
+    margin-left: 20px;
 }
 .pricing_3_content2{
-    width: 284px;
+    width: auto;
     height: 27px;
     font-weight: 400;
     font-size: 18px;
