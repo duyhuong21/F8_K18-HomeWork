@@ -42,9 +42,9 @@ footer {
     position: relative;
     margin-left: 0;
 }
-a:hover , ul:hover {
-    color: red;
-}
+/*.questions a:hover , .questions ul:hover {*/
+/*    color: red;*/
+/*}*/
 ul {
     list-style-type: none;
 }
