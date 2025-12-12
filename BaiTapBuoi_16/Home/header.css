@@ -1,7 +1,7 @@
 header {
     margin: 20px 30px 100px 30px;
     border-bottom: #F1F1F3 solid 1px;
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     right: 0;
@@ -42,12 +42,12 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 20px 0;
-    gap: 785px;
 }
 
 #header-bottom div:first-child {
     display: flex;
     align-items: center;
+    margin-left: 132px;
 }
 
 #header-bottom nav {
@@ -68,7 +68,7 @@ header {
     width: 214px;
     height: 55px;
     gap: 30px;
-
+    margin-right: 132px;
 }
 #header--action span{
     /*font-family: Be Vietnam Pro;*/
