@@ -1,0 +1,145 @@
+.our_testi-main{
+    width: 1597px;
+    height: 850px;
+    gap: 80px;
+    margin-top: 108px;
+    position: relative;
+}
+.our_testi-main-title{
+    display: flex;
+    width: 1597px;
+    height: 132px;
+    gap: 300px;
+    margin-bottom: 80px;
+}
+.our_testi-main-title2 h2{
+    width: 1177px;
+    height: 72px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 150%;
+    color: #262626;
+    margin-bottom: 6px;
+}
+.our_testi-main-title2 span{
+    width: 1177px;
+    height: 54px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #59595A;
+}
+.our_testi-main-title3{
+    display: flex;
+    width: 1597px;
+}
+.our_testi-main-title3 button{
+    position: absolute;
+    top: 64px;
+    left: 1477px;
+    width: 120px;
+    height: 63px;
+    gap: 8px;
+    border-radius: 8px;
+    padding: 18px 24px;
+    background-color: #FCFCFD;
+    border: 1px solid #F1F1F3;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #262626;
+}
+/*==========================================*/
+.our_testi-main-content{
+    width: 1597px;
+    height: 638px;
+}
+.our_testi-main-content2{
+    display: flex;
+    width: 1597px;
+    height: 304px;
+    margin-bottom: 30px;
+}
+.our_testi-main-item{
+    width: 783px;
+    height: 304px;
+    border-radius: 12px;
+    border: 1px solid #F1F1F3;
+    background-color: #FFFFFF;
+}
+
+.our_testi-main-item > div:first-of-type{
+    width: 783px;
+    height: 181px;
+    gap: 10px;
+    padding: 50px;
+    border-bottom: 1px solid #F1F1F3;
+}
+.our_testi-main-item div:first-child span{
+    width: 683px;
+    height: 81px;
+    /*font-family: Be Vietnam Pro;*/
+    font-weight: 400;
+    /*font-style: Regular;*/
+    font-size: 18px;
+    line-height: 150%;
+    color: #4C4C4D;
+}
+.our_testi-main-item div:last-child{
+    width: 783px;
+    height: 123px;
+    padding: 30px 50px;
+    border-radius: 12px;
+    display: flex;
+}
+.our_testi-main-item div:last-child > div{
+    width: 501px;
+    height: 60px;
+    gap: 15px;
+    display: flex;
+    margin-left: 0;
+}
+.our_testi-main-item div:last-child > div > div{
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+}
+.our_testi-main-item div:last-child > div span{
+    width: 426px;
+    height: 27px;
+    /*font-family: Be Vietnam Pro;*/
+    font-weight: 600;
+    /*font-style: SemiBold;*/
+    font-size: 18px;
+    line-height: 150%;
+    color: #333333;
+
+}
+.our_testi-main-item div:last-child > button{
+    width: 182px;
+    height: 63px;
+    border-radius: 8px;
+    padding: 18px 24px;
+    background-color: #F7F7F8;
+    border: 1px solid #F1F1F3;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #262626;
+}
+.tesni_item1{
+    background-image: url("../images/testimonials/item1.svg");
+}
+.tesni_item2{
+    background-image: url("../images/testimonials/item2.svg");
+}
+.tesni_item3{
+    background-image: url("../images/testimonials/item3.svg");
+}
+.tesni_item4{
+    background-image: url("../images/testimonials/item4.svg");
+}

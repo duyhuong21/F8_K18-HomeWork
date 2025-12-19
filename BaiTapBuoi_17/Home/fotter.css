@@ -1,0 +1,148 @@
+footer {
+    background-color: #FFFFFF;
+    margin: 142px auto 0 auto;
+}
+
+.box {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+
+.box1 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    width: 100%;
+    gap: 400px;
+}
+
+.box12 {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 0;
+    top: 0;
+}
+
+.box11 {
+    width: 392px;
+}
+
+.box11-logo {
+    background-image: url("../images/logo.svg");
+    background-color: #FF9500;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 54px;
+    width: 54px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    position: relative;
+    margin-left: 0;
+}
+/*.questions a:hover , .questions ul:hover {*/
+/*    color: red;*/
+/*}*/
+ul {
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #59595A;
+}
+.title{
+    margin-left: 0;
+}
+.box11 > ul li {
+    margin-top: 20px;
+    margin-left: 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: #262626;
+    display: flex;
+
+}
+
+.box11-mail {
+    background-image: url("../icons/mail-icon.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 24px;
+    width: 24px;
+}
+
+.box11-tel {
+    background-image: url("../icons/tel-icon.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 24px;
+    width: 24px;
+}
+
+.box11-map {
+    background-image: url("../icons/ggmap-icon.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 24px;
+    width: 24px;
+}
+
+.box11-icon {
+    margin: 0 10px 0 0;
+}
+
+.box121
+, .box122
+, .box123 {
+    width: 250px;
+    margin-top: 0;
+}
+
+.box12-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #262626;
+    margin-bottom: 14px;
+}
+
+.box121 > ul li
+, .box122 > ul li {
+    margin-top: 8px;
+}
+
+.box123 > ul li {
+    display: inline-block;
+}
+
+.box123-icon {
+    background: #F7F7F8;
+    border: 1px solid #F1F1F3;
+    padding: 14px;
+    border-radius: 8px;
+}
+
+.box123-icon {
+    display: flex;
+    align-items: center;
+}
+
+.box123-icon img {
+    height: 24px;
+    width: 24px;
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #F1F1F3;
+}
+
+.box2 p {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #656567;
+}

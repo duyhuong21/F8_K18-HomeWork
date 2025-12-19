@@ -1,0 +1,12 @@
+* {
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+main{
+    margin: auto;
+}
+body {
+    background-color: #f7f7f8;
+}

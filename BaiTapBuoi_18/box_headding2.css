@@ -1,0 +1,32 @@
+.box_headding_2{
+    height: 187px;
+    gap: 20px;
+    padding: 50px 162px;
+    border-bottom: 1px solid #262626;
+    display: flex;
+    justify-content: space-between;
+}
+.box_headding2-item{
+    width: 250px;
+    height: 87px;
+    padding: 30px 24px;
+    border-radius: 8px;
+    border: 1px solid #262626;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: -3%;
+    color: #FFFFFF;
+}
+.box_headding_2 > a:first-child{
+    width: 250px;
+    height: 87px;
+    padding: 30px 24px;
+    border-radius: 8px;
+    background-color: #1A1A1A;
+    border: 1px solid #262626;
+    text-decoration: none;
+    text-align: center;
+}

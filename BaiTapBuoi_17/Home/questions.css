@@ -1,0 +1,189 @@
+.questions {
+    width: 1595px;
+    height: 1202px;
+    border-radius: 12px;
+    padding: 100px;
+    background-color: #FFFFFF;
+    margin-top: 700px;
+    position: relative;
+    display: flex;
+}
+.questions_left{
+    width: 408px;
+    height: 293px;
+    background-color: #FFFFFF;
+    position: relative;
+    margin-top: 0;
+}
+.questions_right{
+    width: 867px;
+    height: 1002px;
+    background-color: #FFFFFF;
+}
+.questions_left-top > h2{
+    width: 408px;
+    height: 116px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 120%;
+    color: #262626;
+}
+.questions_left-top > p{
+    margin-top: 10px;
+    width: 408px;
+    height: 54px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #333333;
+}
+.questions_left-bottom{
+    width: 408px;
+    height: 113px;
+    position: relative;
+}
+.questions_left-bottom > button{
+    height: 63px;
+    border-radius: 8px;
+    gap: 8px;
+    padding: 18px 24px;
+    background-color: #FFFFFF;
+    border: 1px solid #F1F1F3;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #262626;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+/*==========================================================*/
+
+.fqa-content {
+    max-width: 867px;
+}
+
+.fqa-content-card {
+    margin-bottom: 10px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    border: 1px solid #F1F1F3;
+}
+
+.fqa-content-item {
+    width: 767px;
+    margin: 50px;
+}
+
+.fqa-content-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 150px;
+}
+
+.fqa-content-title span:nth-child(1) {
+    width: 680px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #262626;
+    margin-left: 0;
+}
+.fqa-content-check {
+    display: flex;
+    justify-content: end;
+    margin-left: 30px;
+}
+
+.fqa-content-icon-open {
+    background-image: url("../icons/Icon(+).svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f4ebd4;
+    border-radius: 8px;
+    height: 52px;
+    width: 52px;
+}
+
+.fqa-content-icon-close {
+    background-image: url("../icons/Icon(X).svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f4ebd4;
+    border-radius: 8px;
+    height: 52px;
+    width: 52px;
+}
+
+
+.fqa-content-body {
+    margin-top: 24px;
+    border-top: 1px solid #F1F1F3;
+    padding-top: 50px;
+}
+.fqa-content-body p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #4C4C4D;
+    margin-bottom: 50px;
+}
+
+.fqa-content-action-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background: #F7F7F8;
+    border-radius: 8px;
+    border: 1px solid #F1F1F3;
+}
+
+.fqa-content-action-text {
+    width: 651px;
+    height: 27px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 0;
+    color: #333333;
+}
+
+.fqa-content-icon-btn {
+    background-image: url("../icons/Icon(->).svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #FFFFFF;
+    height: 56px;
+    width: 56px;
+    border-radius: 8px;
+}
+
+.fqa-content-body
+,.fqa-content-icon-close {
+    display: none;
+}
+
+#toggle-question:checked ~ .fqa-content-body
+,#toggle-question2:checked ~ .fqa-content-body
+,#toggle-question3:checked ~ .fqa-content-body
+,#toggle-question4:checked ~ .fqa-content-body
+,#toggle-question5:checked ~ .fqa-content-body {
+    display: block;
+}
+
+#toggle-question:checked ~ .fqa-content-title .fqa-content-check .fqa-content-icon-open
+, #toggle-question2:checked ~ .fqa-content-title .fqa-content-check .fqa-content-icon-open
+, #toggle-question3:checked ~ .fqa-content-title .fqa-content-check .fqa-content-icon-open
+, #toggle-question4:checked ~ .fqa-content-title .fqa-content-check .fqa-content-icon-open
+, #toggle-question5:checked ~ .fqa-content-title .fqa-content-check .fqa-content-icon-open {
+    display: none;
+}
+
+#toggle-question:checked ~ .fqa-content-title .fqa-content-check .fqa-content-icon-close
+, #toggle-question2:checked ~ .fqa-content-title .fqa-content-check .fqa-content-icon-close
+, #toggle-question3:checked ~ .fqa-content-title .fqa-content-check .fqa-content-icon-close
+, #toggle-question4:checked ~ .fqa-content-title .fqa-content-check .fqa-content-icon-close
+, #toggle-question5:checked ~ .fqa-content-title .fqa-content-check .fqa-content-icon-close {
+    display: block;
+}
+
