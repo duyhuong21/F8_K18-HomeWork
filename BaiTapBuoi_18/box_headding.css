@@ -7,7 +7,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 250px;
 }
 .box-headding__content{
     max-width: 1111px;
