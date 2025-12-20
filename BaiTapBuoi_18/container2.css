@@ -1,5 +1,4 @@
 .container2 {
-    height: 373px;
     padding: 120px 162px;
     background-color: #1A1A1A;
     border-width: 1px 0 1px 0;
@@ -27,19 +26,19 @@
 }
 /*====================================================================================*/
 .container2_1{
-    height: 570px;
+    /*height: 570px;*/
     padding-right: 162px;
     padding-left: 162px;
     display: flex;
 }
 .container2_1-right{
-    max-width: 519px;
+    /*max-width: 519px;*/
     height: 260px;
     margin: 155px 80px 155px 0;
 }
 .container2_1-right-item{
-    width: 519px;
-    height: 260px;
+    max-width: 519px;
+    /*height: 260px;*/
 }
 .container2_1-right-item > div:nth-child(1){
     width: 80px;
@@ -63,7 +62,7 @@
 }
 
 .container2_1-left{
-    width: 997px;
+    max-width: 997px;
     height: 570px;
     gap: 30px;
     padding-top: 80px;
@@ -80,12 +79,13 @@
     gap: 30px;
 }
 .container2_1-left-item div{
-    width: 443px;
+    max-width: 443px;
     height: 190px;
     border-radius: 12px;
     padding: 40px;
     background-color: #1A1A1A;
     border: 1px solid #262626;
+    flex: 1;
 }
 .container2_1-left-item div > span:nth-child(1){
     font-weight: 500;

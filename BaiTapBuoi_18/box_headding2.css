@@ -19,6 +19,7 @@
     line-height: 150%;
     letter-spacing: -3%;
     color: #FFFFFF;
+    white-space: nowrap;
 }
 .box_headding_2 > a:first-child{
     width: 250px;

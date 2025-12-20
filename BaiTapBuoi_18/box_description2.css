@@ -69,6 +69,7 @@
     background: #1A1A1A;
     border: 1px solid #262626;
     justify-content: space-between;
+    width: fit-content;
 }
 .box_description-left  > div:last-child > div:nth-child(1) span:nth-child(1){
     font-weight: 400;
@@ -87,11 +88,13 @@
     color: #FFFFFF;
 }
 .box_description-left  > div:last-child > div:nth-child(2){
-    display: flex;
+    display: inline-flex;
     background-color: #141414;
-    justify-content: center;
-    padding: 10px;
+    align-items: center;
+    padding: 6px;
     border-radius: 12px;
+    width: fit-content;
+    flex-shrink: 0;
 }
 .box_description2--avatar0{
     width: 50px;

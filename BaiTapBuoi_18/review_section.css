@@ -6,6 +6,7 @@
     border-bottom: 1px solid #262626;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .review-section--item--star{
@@ -103,11 +104,15 @@
     margin-top: 40px;
     margin-bottom: -20px;
     z-index: 1;
+    display: inline-flex;
+    width: fit-content;
+    flex-shrink: 0;
 }
 
 .review-section--item > div:last-child > p{
-    width: 465px;
-    height: 188px;
+    max-width: 465px;
+    width: 100%;
+    min-height: 188px;
     gap: 10px;
     padding: 50px 30px 30px 30px;
     border-radius: 12px;
@@ -140,3 +145,6 @@
 .review-section > div:nth-child(2)::after {
     right: -25px;
 } /* gap/2 */
+.review-section--item{
+    flex-shrink: 0;
+}
