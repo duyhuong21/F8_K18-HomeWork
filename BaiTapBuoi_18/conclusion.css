@@ -1,5 +1,4 @@
 .conclusion {
-    min-height: 803px;
     padding: 120px 162px;
     background-color: #1A1A1A;
     border-width: 1px 0 1px 0;
@@ -120,4 +119,62 @@
     background-repeat: no-repeat;
     background-position: center;
     display: block;
+}
+@media screen and (max-width: 1440px){
+    .conclusion {
+        gap: 50px;
+        padding: 80px;
+    }
+    .conclusion-top-icon {
+        width: 120px;
+        height: 120px;
+        background-size: contain;
+    }
+    .conclusion-top-badge {
+        gap: 10px;
+        padding: 4px 8px;
+        border-radius: 4px;
+        font-weight: 500;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .conclusion-top-title {
+        font-weight: 500;
+        font-size: 44px;
+        margin-bottom: 20px;
+    }
+    .conclusion-top-desc {
+        font-weight: 400;
+        font-size: 16px;
+    }
+    .conclusion-top {
+        gap: 60px;
+        margin-bottom: 50px;
+    }
+    .conclusion-bottom {
+        gap: 10px;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    .conclusion-card {
+        gap: 16px;
+        border-radius: 10px;
+        padding: 30px;
+    }
+    .conclusion-card-content h3 {
+        font-weight: 600;
+        font-size: 18px;
+        margin-bottom: 16px;
+    }
+    .conclusion-card-content h3 > span {
+        width: 44px;
+        height: 44px;
+        gap: 10px;
+        border-radius: 100px;
+        padding: 12px;
+    }
+    .conclusion-card-content p {
+        font-weight: 400;
+        font-size: 16px;
+    }
 }

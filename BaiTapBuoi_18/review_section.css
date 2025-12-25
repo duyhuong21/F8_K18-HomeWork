@@ -1,5 +1,4 @@
 .review-section{
-    min-height: 469px;
     gap: 50px;
     padding-right: 162px;
     padding-left: 162px;
@@ -57,8 +56,6 @@
 
 .review-section--item{
     flex: 1;
-    min-width: 280px;
-    max-width: 465px;
     padding-top: 80px;
     padding-bottom: 80px;
 }
@@ -94,8 +91,6 @@
 }
 
 .review-section--item > div:last-child > div:first-child{
-    width: 180px;
-    height: 44px;
     gap: 7px;
     padding: 10px 16px;
     border-radius: 100px;
@@ -141,10 +136,64 @@
 
 .review-section > div:nth-child(2)::before {
     left: -25px;
-} /* gap/2 */
+}
 .review-section > div:nth-child(2)::after {
     right: -25px;
-} /* gap/2 */
+}
 .review-section--item{
     flex-shrink: 0;
+}
+@media screen and (max-width: 1440px){
+    .review-section {
+        gap: 40px;
+        padding-right: 80px;
+        padding-left: 80px;
+    }
+    .review-section--item-image1,
+    .review-section--item-image2,
+    .review-section--item-image3,
+    .review-section--item-image4,
+    .review-section--item-image5,
+    .review-section--item-image6
+    {
+        width: 50px;
+        height: 50px;
+        margin-right: 12px;
+        background-size: cover;
+    }
+    .review-section--item div:first-child div:last-child span:first-child {
+        font-weight: 400;
+        font-size: 18px;
+    }
+    .review-section--item div:first-child div:last-child span:last-child {
+        font-weight: 400;
+        font-size: 16px;
+    }
+    .review-section--item > div:last-child > div:first-child {
+        gap: 4px;
+        padding: 8px 12px;
+        border-radius: 100px;
+        margin-top: 30px;
+    }
+    .review-section--item--star {
+        width: 20px;
+        height: 20px;
+    }
+    .review-section--item > div:last-child > p {
+        gap: 10px;
+        padding-top: 40px;
+        padding-right: 24px;
+        padding-bottom: 24px;
+        padding-left: 24px;
+        border-radius: 12px;
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    .review-section > div:nth-child(2)::before {
+        left: -20px;
+    }
+    .review-section > div:nth-child(2)::after {
+        right: -20px;
+    }
 }

@@ -1,6 +1,4 @@
 .box_description{
-    height: 369px;
-    opacity: 1;
     padding: 80px 162px;
     border-bottom: 1px solid #262626;
     display: flex;
@@ -46,16 +44,13 @@
 }
 /*=============================================*/
 .box_description--title{
-    width: 80%;
+    width: 75%;
     height: 209px;
-    gap: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .box_description--title a{
-    width: 162px;
-    height: 63px;
     padding: 18px 24px;
     border-radius: 12px;
     background-color: #141414;
@@ -69,6 +64,7 @@
     letter-spacing: -3%;
     color: #98989A;
     white-space: nowrap;
+    gap: 10px;
 }
 .box_description--title > div{
     height: 209px;
@@ -137,4 +133,66 @@
     background-image: url("description/Icon(4).svg");
     width: 24px;
     height: 24px;
+}
+@media screen and (max-width: 1440px){
+    .box_description {
+        padding: 60px 80px;
+    }
+    .box_description--avatar1 {
+        width: 60px;
+        height: 60px;
+        border-radius: 42px;
+        background-size: cover;
+    }
+    .box_description--avatar2 {
+        width: 60px;
+        height: 60px;
+        border-radius: 42px;
+        background-size: cover;
+    }
+    .box_description--avatar3 {
+        width: 60px;
+        height: 60px;
+        border-radius: 42px;
+        background-size: cover;
+    }
+    .box_description--avatar div:nth-child(2) > div {
+        font-size: 18px;
+        margin-top: 5px;
+        margin-bottom: 0;
+    }
+    .box_description--avatar div:nth-child(2) > span {
+        font-size: 16px;
+    }
+
+    .box_description--title > div > div:first-child {
+        font-size: 18px;
+    }
+    .box_description--title > div > div:nth-child(2) {
+        font-size: 22px;
+    }
+    .box_description--title > div > span {
+        font-size: 16px;
+    }
+    .box_description--title > div > div:last-child div {
+        gap: 2px;
+        padding: 6px 12px;
+    }
+    .box_description-icon1 ,
+    .box_description-icon2,
+    .box_description-icon3,
+    .box_description-icon4{
+        width: 20px;
+        height: 20px;
+        background-size: cover;
+    }
+    .likes {
+        font-size: 14px;
+    }
+    .box_description--title a {
+        padding: 14px 20px;
+        border-radius: 8px;
+        font-size: 14px;
+        gap: 4px;
+    }
 }

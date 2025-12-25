@@ -82,3 +82,36 @@ header {
     background-color: #FFD11A;
     border: none;
 }
+@media screen and (max-width: 1440px) {
+    .header_top {
+        padding: 12px 24px;
+    }
+    .header_top > span{
+        font-size: 14px;
+    }
+    .arrow-yellow {
+        width: 20px;
+        height: 20px;
+        background-size: cover;
+    }
+    .header_bottom div:nth-child(2) a {
+        padding: 10px 18px;
+        border-radius: 6px;
+        font-size: 14px;
+    }
+    .header_bottom button {
+        padding: 10px 14px;
+        border-radius: 6px;
+    }
+    .header_bottom button a {
+        font-size: 14px;
+    }
+    .header_bottom {
+        display: flex;
+        justify-content: space-between;
+        border-bottom-width: 1px;
+        padding: 20px 80px;
+        background-color: #1A1A1A;
+        align-items: center;
+    }
+}
