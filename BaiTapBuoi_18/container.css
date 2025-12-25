@@ -396,6 +396,7 @@
         gap: 20px;
     }
     .container-top-left {
+        width: 100%;
         padding-top: 40px;
     }
     .container-item {
@@ -416,6 +417,7 @@
     }
     /* RIGHT CARD */
     .container-top-right {
+        width: 100%;
         gap: 20px;
         padding: 0 40px 40px 40px;
 
@@ -486,8 +488,9 @@
 
     .container-bottom--item {
         width: 100%;
-        padding-top: 30px;
-        padding-bottom: 30px;
+        max-width: 100%;
+        padding: 30px 0;
+        position: relative;
     }
 
     .container-bottom > .container-bottom--item:first-child,

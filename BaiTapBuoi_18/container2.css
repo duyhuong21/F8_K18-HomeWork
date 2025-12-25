@@ -223,6 +223,14 @@
         border-left: none;
         gap: 16px;
     }
+    .container2_1,
+    .container2_1-left,
+    .container2_1-right,
+    .container2_1-right-item,
+    .container2_1-left-item {
+        width: 100%;
+        max-width: 100%;
+    }
 
     .container2_1-left-item {
         flex-direction: column;
@@ -248,6 +256,9 @@
         font-size: 14px;
     }
     .container2_1-right-item {
+        width: 100%;
+        max-width: 100%;
+        position: relative;
         padding-bottom: 50px;
         border-bottom: 1px solid #262626;
     }

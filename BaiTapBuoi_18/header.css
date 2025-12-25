@@ -120,6 +120,7 @@ header {
 }
 @media screen and (max-width: 767px) {
     .header_top {
+        width: 100%;
         gap: 10px;
         padding: 40px 24px 14px 24px;
     }
@@ -138,6 +139,7 @@ header {
         display: inline-block;
     }
     .header_bottom {
+        width: 100%;
         padding: 20px 16px;
     }
     .header_bottom div:nth-child(2) {
