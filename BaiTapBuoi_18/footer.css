@@ -130,6 +130,12 @@
 .social i:hover {
     color: #fff;
 }
+.conclusion-top-mobile{
+     display: none;
+ }
+.footer-mobile{
+    display: none;
+}
 @media screen and (max-width: 1440px){
     .footer {
         padding-right: 80px;

@@ -134,6 +134,9 @@
     width: 24px;
     height: 24px;
 }
+.box_description-mobile{
+    display: none;
+}
 @media screen and (max-width: 1440px){
     .box_description {
         padding: 60px 80px;
@@ -196,6 +199,7 @@
         gap: 4px;
     }
 }
+
 @media screen and (max-width: 767px) {
 
     .box_description {
