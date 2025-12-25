@@ -432,5 +432,24 @@
     .box_description-right div:last-child > span:nth-child(2) {
         font-size: 18px;
     }
-
 }
+@media screen and (max-width: 1180px){
+    .box_description-right--title2 {
+        gap: 16px;
+        margin-bottom: 24px;
+        flex-wrap: wrap;
+    }
+    .box_description-right--title2 > div {
+        flex-grow: 1;
+        flex-shrink:1;
+        flex-basis: 100%;
+    }
+    .box_description-left > div:last-child > div:nth-child(1) span:nth-child(1) {
+        font-size: 13px;
+        margin-bottom: 2px;
+    }
+    .box_description-left > div:last-child > div:nth-child(1) span:nth-child(2) {
+        font-size: 18px;
+    }
+}
+
