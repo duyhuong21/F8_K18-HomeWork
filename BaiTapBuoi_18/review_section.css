@@ -197,3 +197,77 @@
         right: -20px;
     }
 }
+/* MOBILE */
+@media (max-width: 767px) {
+    .review-section--mobile{
+        display: none;
+    }
+    /* SECTION */
+    .review-section{
+        flex-direction: column;
+        padding-right: 16px;
+        padding-left: 16px;
+        border-bottom: 1px solid #262626
+    }
+
+    /* ITEM */
+    .review-section--item{
+        gap: 30px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        border-bottom: 1px solid #262626;
+    }
+
+    /* AVATAR + NAME */
+    .review-section--item > div:first-child{
+        gap: 8px;
+        margin-bottom: 30px;
+    }
+
+    .review-section--item > div:first-child div:last-child{
+        text-align: center;
+    }
+
+    .review-section--item div:first-child div:last-child span:first-child{
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .review-section--item div:first-child div:last-child span:last-child{
+        font-size: 16px;
+    }
+
+    /* STAR WRAPPER */
+    .review-section--item > div:last-child{
+        align-items: center;
+    }
+
+    .review-section--item > div:last-child > div:first-child{
+        margin-top: 0;
+        padding: 8px 12px;
+        gap: 4px;
+    }
+
+    .review-section--item--star{
+        width: 20px;
+        height: 20px;
+        background-size: contain;
+    }
+
+    /* REVIEW BOX */
+    .review-section--item > div:last-child > p{
+        min-height: auto;
+        font-size: 14px;
+        padding: 30px 20px 20px 20px;
+        border-radius: 12px;
+        text-align: center;
+    }
+
+    /* REMOVE DIVIDERS */
+    .review-section > div:nth-child(2)::before,
+    .review-section > div:nth-child(2)::after{
+        display: none;
+    }
+
+}
+

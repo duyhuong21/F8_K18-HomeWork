@@ -69,3 +69,34 @@
         font-size: 14px;
     }
 }
+@media screen and (max-width: 767px) {
+
+    .box-headding {
+        padding: 40px 16px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+    }
+
+    .box-headding__content {
+        max-width: 100%;
+    }
+
+    .box-headding div > span {
+        font-size: 14px;
+        padding: 4px 8px;
+        margin-bottom: 10px;
+    }
+
+    .box-headding div > h2 {
+        font-size: 28px;
+    }
+
+    .box-headding > a {
+        width: 100%;
+        justify-content: center;
+        font-size: 14px;
+        padding: 14px 20px;
+        border-radius: 8px;
+    }
+}

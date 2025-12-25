@@ -45,7 +45,6 @@
 
 /* ================= RIGHT ================= */
 .container-top-right{
-    width: 653px;
     padding-top: 150px;
     padding-bottom: 80px;
     padding-left: 80px;
@@ -349,5 +348,171 @@
     .container-item--title button {
         width: 44px;
         height: 44px;
+    }
+}
+/* ===============================
+   MOBILE 390px
+================================ */
+@media screen and (max-width: 767px) {
+    /* TOP */
+    .container-top {
+        flex-direction: column;
+        padding: 0;
+    }
+    .container-top-left-title {
+        padding:  0 16px 0 16px;
+    }
+
+    .container-top-left-title span {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 120%;
+        letter-spacing: -3%;
+        margin-bottom: 14px;
+    }
+
+    .container-top-left-title h1 {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 120%;
+        letter-spacing: -3%;
+    }
+    .container-top-left-title p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: -3%;
+        margin-bottom: 30px;
+    }
+
+    /* STAT BOX */
+    .container-top-left-item > .container-item:nth-child(1) {
+        margin-left: 16px;
+
+    }
+    .container-top-left-item {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    .container-top-left {
+        padding-top: 40px;
+    }
+    .container-item {
+        flex: 1;
+        padding: 20px 5px 20px 5px;
+        border-right: 1px solid #262626;
+    }
+    .container-item div {
+        font-weight: 600;
+        font-size: 24px;
+    }
+    .okok{
+        font-size: 24px;
+    }
+    .container-item span {
+        font-weight: 400;
+        font-size: 14px;
+    }
+    /* RIGHT CARD */
+    .container-top-right {
+        gap: 20px;
+        padding: 0 40px 40px 40px;
+
+    }
+    .container-top-right > div:nth-child(2) {
+        margin-top: 100px;
+    }
+    .container-top-right::before {
+        content: "";
+        background-image: url("container/bg.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 60%;
+        height: 60%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .container-bottom {
+        gap: 0;
+    }
+
+    .container-top-right-icon {
+        display: flex;
+        margin-bottom: 12px;
+    }
+
+    .container-top-right-icon div {
+        width: 40px;
+        height: 40px;
+    }
+
+    .container-top-right > div:nth-child(3) div {
+        font-weight: 500;
+        font-size: 18px;
+        margin-bottom: 4px;
+    }
+
+    .container-top-right > div:nth-child(3) span {
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .container-top-right button {
+        gap: 4px;
+        width: 100%;
+        padding: 14px 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-top-right button a {
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        width: 100%;
+        text-align: center;
+    }
+    /* BOTTOM LIST */
+    .container-bottom {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0 16px 0 16px;
+    }
+
+    .container-bottom--item {
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .container-bottom > .container-bottom--item:first-child,
+    .container-bottom > .container-bottom--item:nth-child(2)
+    {
+        border-bottom: 1px solid #262626;
+    }
+    .container-item2 {
+        width: 30px;
+        height: 30px;
+        margin-bottom: 16px;
+        background-size: cover;
+    }
+    .container-item--title div:first-child > span:first-child {
+        font-size: 16px;
+    }
+    .container-item--title div:first-child > span:last-child {
+        font-size: 14px;
+    }
+    .container-bottom--item > div:last-child {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .container-item--title button {
+        width: 40px;
+        height: 40px;
     }
 }

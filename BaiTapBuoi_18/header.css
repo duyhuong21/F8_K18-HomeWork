@@ -26,6 +26,9 @@ header {
     letter-spacing: -3%;
     color: #98989A;
 }
+.header_top > span:nth-child(2) {
+    display: none;
+}
 /*============================================*/
 .header_bottom{
     display: flex;
@@ -113,5 +116,42 @@ header {
         padding: 20px 80px;
         background-color: #1A1A1A;
         align-items: center;
+    }
+}
+@media screen and (max-width: 767px) {
+    .header_top {
+        gap: 10px;
+        padding: 40px 24px 14px 24px;
+    }
+    .header_top > span {
+        font-size: 12px;
+    }
+    .arrow-yellow {
+        width: 20px;
+        height: 20px;
+        background-size: cover;
+    }
+    .header_top > span:nth-child(1) {
+        display: none;
+    }
+    .header_top > span:nth-child(2) {
+        display: inline-block;
+    }
+    .header_bottom {
+        padding: 20px 16px;
+    }
+    .header_bottom div:nth-child(2) {
+        display: none;
+    }
+    .header_bottom_logo > div {
+        width: 35px;
+        height: 35px;
+        background-size: cover ;
+    }
+    .header_bottom_logo > h4 {
+        font-size: 13px;
+    }
+    .header_bottom button {
+       display: none;
     }
 }

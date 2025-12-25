@@ -196,3 +196,106 @@
         gap: 4px;
     }
 }
+@media screen and (max-width: 767px) {
+
+    .box_description {
+        padding: 40px 16px;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    /* AVATAR */
+    .box_description--avatar {
+        align-items: center;
+        gap: 12px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .box_description--avatar3 {
+        width: 48px;
+        height: 48px;
+        background-size: cover;
+    }
+
+    .box_description--avatar div:nth-child(2) > div {
+        font-size: 18px;
+        margin-top: 0;
+    }
+
+    .box_description--avatar div:nth-child(2) > span {
+        font-size: 14px;
+    }
+
+    /* TITLE BLOCK */
+    .box_description--title {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .box_description--title > div {
+        height: auto;
+    }
+
+    .box_description--title > div > div:first-child {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .box_description--title > div > div:nth-child(2) {
+        font-size: 18px;
+        line-height: 130%;
+        margin-bottom: 4px;
+    }
+
+    .box_description--title > div > span {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    /* META (likes, views, comments) */
+    .box_description--title > div > div:last-child {
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .box_description--title > div > div:last-child div {
+        padding: 6px 12px;
+        margin-right: 0;
+    }
+
+    .likes {
+        font-size: 14px;
+    }
+
+    /* BUTTON */
+    .box_description--title a {
+        display: none;
+    }
+    .box_description-mobile
+    {
+        gap: 4px;
+        padding: 14px 20px;
+        border-radius: 8px;
+        background: #141414;
+        border: 1px solid #262626;
+        font-weight: 400;
+        font-size: 14px;
+        color: #98989A;
+        text-decoration: none;
+        display: flex;
+
+    }
+
+    .box_description-icon1,
+    .box_description-icon2,
+    .box_description-icon3,
+    .box_description-icon4 {
+        width: 20px;
+        height: 20px;
+        background-size: cover;
+    }
+}
