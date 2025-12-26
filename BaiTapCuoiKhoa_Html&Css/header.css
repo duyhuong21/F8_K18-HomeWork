@@ -240,3 +240,8 @@ header {
         font-size: 24px;
     }
 }
+@media screen and (max-width: 450px) {
+    .menu-toggle {
+        width: 70%;
+    }
+}
