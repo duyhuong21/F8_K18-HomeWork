@@ -95,6 +95,5 @@ function calculateElectricityBill(kWh) {
     return total;
 }
 const consumption = 250;
-console.log("Amount to pay:",
-    calculateElectricityBill(consumption), "VND");
+console.log("Amount to pay:", calculateElectricityBill(consumption), "VND");
 
