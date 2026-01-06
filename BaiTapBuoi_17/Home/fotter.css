@@ -146,3 +146,80 @@ a{
     font-size: 18px;
     color: #656567;
 }
+@media screen and (max-width: 390px) {
+
+    footer {
+        margin-top: 80px;
+    }
+
+    .box {
+        padding: 0 16px;
+    }
+
+    /* ===== BOX 1 ===== */
+    .box1 {
+        flex-direction: column;
+        gap: 40px;
+        padding-top: 40px;
+        padding-bottom: 32px;
+    }
+
+    /* ===== LEFT ===== */
+    .box11 {
+        width: 100%;
+    }
+
+    .box11-logo {
+        margin-bottom: 24px;
+    }
+
+    .box11 > ul li {
+        font-size: 14px;
+        align-items: center;
+    }
+
+    /* ===== RIGHT ===== */
+    .box12 {
+        width: 100%;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .box121,
+    .box122,
+    .box123 {
+        width: 100%;
+    }
+
+    .box12-title {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .box121 ul li,
+    .box122 ul li {
+        font-size: 14px;
+    }
+
+    /* ===== SOCIAL ===== */
+    .box123 ul {
+        display: flex;
+        gap: 12px;
+    }
+
+    .box123-icon {
+        padding: 12px;
+    }
+
+    .box123-icon img {
+        width: 20px;
+        height: 20px;
+    }
+
+    /* ===== COPYRIGHT ===== */
+    .box2 p {
+        font-size: 14px;
+        text-align: center;
+        padding: 24px 0;
+    }
+}

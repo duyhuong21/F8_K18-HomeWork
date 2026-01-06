@@ -214,3 +214,73 @@ h1 span{
         margin: 0;
     }
 }
+@media screen and (max-width: 390px) {
+
+    .hero_section{
+        max-width: 100%;
+        padding: 0 16px;
+        height: auto;
+        padding-bottom: 40px;
+        padding-top: 50px;
+    }
+
+    .hero_section-top{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .hero_section-top2{
+        justify-content: center;
+    }
+
+    .hero_section-top2 > img:first-of-type{
+        top: -20px;
+        left: -14px;
+        width: 30px;
+    }
+
+    .hero_section-title{
+        max-width: 100%;
+        height: auto;
+        padding: 12px;
+        margin: 0 0 12px 0;
+        gap: 8px;
+    }
+
+    #hero_section-title-icon{
+        width: 36px;
+        height: 36px;
+        background-size: 20px;
+    }
+
+    .hero_section-title h1{
+        font-size: 20px;
+        line-height: 140%;
+    }
+
+    .hero_section-bottom2 > span:first-of-type{
+        font-size: 20px;
+        line-height: 140%;
+        margin-bottom: 6px;
+    }
+
+    .hero_section-bottom2 > span:last-of-type{
+        font-size: 14px;
+        line-height: 140%;
+    }
+
+    .hero_section-bottom{
+        width: 100%;
+        height: auto;
+        padding-top: 24px;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .hero_section-bottom button{
+        width: 100%;
+        height: 48px;
+        font-size: 14px;
+        padding: 12px;
+    }
+}

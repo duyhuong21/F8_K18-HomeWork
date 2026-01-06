@@ -1,200 +1,190 @@
+/* ===== WRAPPER ===== */
 .our_pricing-main{
-    width: 1597px;
-    height: 850px;
-    gap: 80px;
-    margin-top: 108px;
-    position: relative;
+    max-width: 1600px;
+    margin: 108px auto 0;
+    padding: 0 16px;
 }
+
+/* ===== TITLE ===== */
 .our_pricing-main-title{
     display: flex;
-    width: 1597px;
-    height: 132px;
-    gap: 300px;
-    margin-bottom: 80px;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 60px;
+    margin-bottom: 64px;
 }
+
+.our_pricing-main-title2{
+    max-width: 1025px;
+}
+
 .our_pricing-main-title2 h2{
-    width: 1025px;
-    height: 72px;
-    font-weight: 600;
     font-size: 48px;
-    line-height: 150%;
+    font-weight: 600;
+    line-height: 1.3;
     color: #262626;
     margin-bottom: 6px;
 }
+
 .our_pricing-main-title2 span{
-    width: 1025px;
-    height: 54px;
-    font-weight: 400;
     font-size: 18px;
-    line-height: 150%;
+    line-height: 1.6;
     color: #59595A;
 }
+
+/* toggle */
 .our_pricing-main-title3{
     display: flex;
-    background-color: #FFFFFF;
-    width: 272px;
-    height: 79px;
+    gap: 8px;
+    padding: 8px;
+    background: #FFFFFF;
     border-radius: 8px;
-    padding: 12px;
+}
 
-}
 .our_pricing-main-title3 button{
-    width: 132px;
-    height: 55px;
-    gap: 10px;
+    padding: 14px 28px;
     border-radius: 6px;
-    padding: 14px 30px;
-    font-weight: 900;
     font-size: 18px;
-    line-height: 150%;
+    font-weight: 600;
     border: none;
+    cursor: pointer;
 }
-.our_pricing-main-title3 button:first-of-type{
+
+.our_pricing-main-title3 button:first-child{
     background-color: #FF9500;
-    color: #fff;
+    color: #FFFFFF;
 }
-.our_pricing-main-title3 button:last-of-type{
+
+.our_pricing-main-title3 button:last-child{
     background-color: #FFFFFF;
     color: #4C4C4D;
 }
+
+/* ===== LIST ===== */
 .our_pricing-main > div:last-of-type{
     display: flex;
-    width: 1597px;
-    height: 1206px;
     gap: 30px;
+    padding: 64px;
     border-radius: 12px;
-    padding: 80px;
     background-color: #FFFFFF;
 }
+
+/* ===== CARD ===== */
 .our_pricing-main-item{
-    width: 703px;
-    height: 1046px;
-    gap: 50px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 30px 30px;
     border-radius: 12px;
-    padding: 50px 30px 30px 30px;
     background-color: #FCFCFD;
     border: 1px solid #F1F1F3;
 }
+
+/* plan name */
 .pricing_1{
-    width: 643px;
-    height: 61px;
-    gap: 10px;
-    border-radius: 6px;
     padding: 12px 22px;
+    margin-bottom: 32px;
+    border-radius: 6px;
     background-color: #FFF9F0;
     border: 1px solid #FFEACC;
-    font-weight: 500;
     font-size: 22px;
-    line-height: 169%;
-    color: #262626;
-    text-align: center;
-    margin-bottom: 50px;
-}
-.pricing_2{
-    width: 643px;
-    height: 58px;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
-}
-.pricing_2 > span:first-child{
-    height: 58px;
-    font-weight: 600;
-    font-size: 80px;
-    line-height: 73%;
-    color: #262626;
-    margin: 0;
-    text-align: right;
-}
-.pricing_2 > span:last-child{
-    width: 73px;
-    height: 15px;
     font-weight: 500;
-    font-size: 20px;
-    line-height: 73%;
-    color: #4C4C4D;
-    margin: 43px 0 0 0;
+    text-align: center;
 }
 
-.pricing_3{
-    width: 643px;
-    height: 680px;
-    gap: 30px;
-    padding: 40px;
-    border-top-left-radius: 14px;
-    border-top-right-radius: 14px;
-    background-color: #FFFFFF;
-    border: 1px solid #F1F1F3;
-}
-.pricing_3_title1{
-    width: 563px;
-    height: 30px;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 150%;
-    text-align: center;
-    color: #262626;
-    margin-bottom: 30px;
-}
-.pricing_3_content{
-    width: 563px;
-    height: 540px;
-    gap: 20px;
-    padding-right: 30px;
-    padding-left: 30px;
-}
-.pricing_3_content > div{
+/* price */
+.pricing_2{
     display: flex;
     justify-content: center;
-    width: 503px;
-    height: 60px;
-    border-radius: 8px;
-    border: 1px solid #F1F1F3;
-    margin-bottom: 20px;
+    align-items: flex-end;
+    gap: 6px;
+    margin-bottom: 32px;
 }
-.pricing_3_content1{
-    background-image: url("../images/pricing/icon_tick.svg");
-    width: 32px;
-    height: 32px;
-    gap: 10px;
-    border-radius: 6px;
-    padding: 6px;
-    background-color: #FFF4E5;
-    margin-right: 0;
-    margin-left: 20px;
-}
-.pricing_3_content3{
-    background-image: url("../images/pricing/icon_(X).svg");
-    width: 32px;
-    height: 32px;
-    gap: 10px;
-    border-radius: 6px;
-    padding: 6px;
-    background-color: #FFFFFF;
-    margin-right: 0;
-    margin-left: 20px;
-}
-.pricing_3_content2{
-    width: auto;
-    height: 27px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 150%;
-    color: #4C4C4D;
-    margin-left: 12px;
-}
-.pricing_button{
-    width: 643px;
-    height: 67px;
-    gap: 8px;
-    padding: 20px 24px;
-    border-bottom-right-radius: 8px;
-    border-bottom-left-radius: 8px;
-    background-color: #FF9500;
+
+.pricing_2 span:first-child{
+    font-size: 80px;
     font-weight: 600;
-    font-size: 18px;
-    line-height: 150%;
+    color: #262626;
+}
+
+.pricing_2 span:last-child{
+    font-size: 20px;
+    color: #4C4C4D;
+    padding-bottom: 10px;
+}
+
+/* feature box */
+.pricing_3{
+    flex: 1;
+    padding: 40px;
+    border-radius: 14px 14px 0 0;
+    background-color: #FFFFFF;
+    border: 1px solid #F1F1F3;
+}
+
+.pricing_3_title1{
+    font-size: 20px;
+    font-weight: 500;
     text-align: center;
-    color: #FFFFFF;
-    border: none;
+    margin-bottom: 30px;
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 390px){
+
+    .our_pricing-main{
+        margin-top: 60px;
+    }
+
+    .our_pricing-main-title{
+        flex-direction: column;
+        gap: 16px;
+        margin-bottom: 32px;
+    }
+
+    .our_pricing-main-title2 h2{
+        font-size: 28px;
+    }
+
+    .our_pricing-main-title2 span{
+        font-size: 14px;
+    }
+
+    .our_pricing-main-title3{
+        width: 100%;
+    }
+
+    .our_pricing-main-title3 button{
+        flex: 1;
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .our_pricing-main > div:last-of-type{
+        flex-direction: column;
+        padding: 24px;
+        gap: 20px;
+    }
+
+    .our_pricing-main-item{
+        padding: 24px;
+    }
+
+    .pricing_1{
+        font-size: 18px;
+        margin-bottom: 24px;
+    }
+
+    .pricing_2 span:first-child{
+        font-size: 48px;
+    }
+
+    .pricing_2 span:last-child{
+        font-size: 14px;
+        padding-bottom: 6px;
+    }
+
+    .pricing_3{
+        padding: 24px;
+    }
 }

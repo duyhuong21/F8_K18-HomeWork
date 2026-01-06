@@ -186,4 +186,119 @@
 , #toggle-question5:checked ~ .fqa-content-title .fqa-content-check .fqa-content-icon-close {
     display: block;
 }
+@media screen and (max-width: 390px) {
+
+    /* ===== WRAPPER ===== */
+    .questions {
+        width: 100%;
+        height: auto;
+        padding: 24px 16px;
+        margin-top: 80px;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    /* ===== LEFT ===== */
+    .questions_left {
+        width: 100%;
+        height: auto;
+    }
+
+    .questions_left-top h2 {
+        width: 100%;
+        font-size: 28px;
+        line-height: 130%;
+        height: auto;
+    }
+
+    .questions_left-top p {
+        width: 100%;
+        font-size: 14px;
+        line-height: 140%;
+        height: auto;
+    }
+
+    .questions_left-bottom {
+        width: 100%;
+        height: auto;
+        margin-top: 16px;
+    }
+
+    .questions_left-bottom button {
+        position: static;
+        width: 100%;
+        height: 48px;
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    /* ===== RIGHT ===== */
+    .questions_right {
+        width: 100%;
+        height: auto;
+    }
+
+    .fqa-content {
+        max-width: 100%;
+    }
+
+    .fqa-content-card {
+        width: 100%;
+    }
+
+    .fqa-content-item {
+        width: 100%;
+        margin: 16px;
+    }
+
+    /* ===== TITLE FAQ ===== */
+    .fqa-content-title {
+        flex-direction: row;
+        gap: 12px;
+        align-items: flex-start;
+    }
+
+    .fqa-content-title span:nth-child(1){
+        width: auto;
+        font-size: 14px;
+        line-height: 140%;
+    }
+
+    .fqa-content-check {
+        margin-left: 0;
+    }
+
+    .fqa-content-icon-open,
+    .fqa-content-icon-close {
+        width: 40px;
+        height: 40px;
+    }
+
+    /* ===== BODY ===== */
+    .fqa-content-body {
+        padding-top: 16px;
+    }
+
+    .fqa-content-body p {
+        font-size: 14px;
+        line-height: 140%;
+        margin-bottom: 16px;
+    }
+
+    .fqa-content-action-btn {
+        padding: 12px;
+        gap: 8px;
+    }
+
+    .fqa-content-action-text {
+        width: auto;
+        font-size: 14px;
+    }
+
+    .fqa-content-icon-btn {
+        width: 30px;
+        height: 30px;
+
+    }
+}
 
