@@ -54,7 +54,6 @@ function toFahrenheit(celsius) {
 console.log("Fahrenheit:", toFahrenheit(10));
 
 // Lesson 6: Household electricity bill calculation
-
 function calculateElectricityBill(kWh) {
     let total = 0;
 
@@ -81,4 +80,3 @@ function calculateElectricityBill(kWh) {
 }
 const consumption = 250;
 console.log("Amount to pay:", calculateElectricityBill(consumption), "VND");
-
