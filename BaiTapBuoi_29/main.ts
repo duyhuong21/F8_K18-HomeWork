@@ -85,7 +85,7 @@ class Manager implements Employee {
 
     setSalary(salary: number): void {
         if (salary <= 0) throw new Error("Salary must be > 0")
-        this.salary = salary // ❗ KHÔNG cộng ở đây
+        this.salary = salary
     }
 
     calculateSalary(): number {
