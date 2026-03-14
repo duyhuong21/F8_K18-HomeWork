@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .selected {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+
+<ul id="list">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    <li>Item 4</li>
+</ul>
+
+<script>
+    const items = document.querySelectorAll("#list li");
+
+    items.forEach(function(li) {
+        li.addEventListener("click", function() {
+
+            items.forEach(function(item){
+                item.classList.remove("selected");
+            });
+
+            li.classList.add("selected");
+
+        });
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+
+        .done-btn{
+            background: yellow;
+        }
+
+        .done{
+            background: green;
+        }
+
+        .delete-btn{
+            background: red;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+
+<h3>Todo List</h3>
+
+<input type="text" id="todoInput" placeholder="Enter job name">
+<button id="addBtn">Add</button>
+
+<br><br>
+
+<input type="text" id="searchInput" placeholder="Search job name">
+
+<label><input type="checkbox" id="filterDone"> done</label>
+
+<ul id="todoList"></ul>
+
+<script>
+
+    const todoInput = document.getElementById("todoInput")
+    const addBtn = document.getElementById("addBtn")
+    const list = document.getElementById("todoList")
+    const searchInput = document.getElementById("searchInput")
+    const filterDone = document.getElementById("filterDone")
+
+    addBtn.onclick = function(){
+
+        const text = todoInput.value.trim()
+
+        if(text === "") return
+
+        const li = document.createElement("li")
+
+        const span = document.createElement("span")
+        span.textContent = text
+
+        const doneBtn = document.createElement("button")
+        doneBtn.textContent = "Done"
+        doneBtn.className = "done-btn"
+
+        const deleteBtn = document.createElement("button")
+        deleteBtn.textContent = "Delete"
+        deleteBtn.className = "delete-btn"
+
+        doneBtn.onclick = function(){
+
+            if(doneBtn.classList.contains("done")){
+                doneBtn.classList.remove("done")
+                doneBtn.classList.add("done-btn")
+            }else{
+                doneBtn.classList.add("done")
+                doneBtn.classList.remove("done-btn")
+            }
+
+        }
+
+        deleteBtn.onclick = function(){
+            li.remove()
+        }
+
+        li.appendChild(span)
+        li.appendChild(doneBtn)
+        li.appendChild(deleteBtn)
+
+        list.appendChild(li)
+
+        todoInput.value = ""
+
+    }
+
+    searchInput.oninput = function(){
+
+        const keyword = searchInput.value.toLowerCase()
+
+        const items = list.querySelectorAll("li")
+
+        items.forEach(function(li){
+
+            const text = li.querySelector("span").textContent.toLowerCase()
+
+            if(text.includes(keyword)){
+                li.style.display = ""
+            }else{
+                li.style.display = "none"
+            }
+
+        })
+
+    }
+
+    filterDone.onchange = function(){
+
+        const items = list.querySelectorAll("li")
+
+        items.forEach(function(li){
+
+            const doneBtn = li.querySelector("button")
+
+            if(filterDone.checked){
+
+                if(doneBtn.classList.contains("done")){
+                    li.style.display = ""
+                }else{
+                    li.style.display = "none"
+                }
+
+            }else{
+                li.style.display = ""
+            }
+
+        })
+
+    }
+
+</script>
+
+</body>
+</html>

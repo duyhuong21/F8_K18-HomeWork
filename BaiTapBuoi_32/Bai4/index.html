@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+
+<label for="todoInput">Enter job:</label>
+<input type="text" id="todoInput" placeholder="Enter job name">
+
+<button id="addBtn">Add</button>
+
+<ul id="todoList"></ul>
+
+<script>
+    const input = document.getElementById("todoInput");
+    const btn = document.getElementById("addBtn");
+    const list = document.getElementById("todoList");
+
+    btn.addEventListener("click", function () {
+        const text = input.value.trim();
+
+        if (text === "") return;
+
+        const li = document.createElement("li");
+        li.textContent = text;
+
+        list.appendChild(li);
+
+        input.value = "";
+    });
+</script>
+
+</body>
+</html>
